@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contain{
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.sidebar{
+    border-radius: 5px;
+    background-color: #eee;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+.mm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h5{
+    padding: 0px 5px;
+    color: orangered;
+}
+h6{
+    padding: 0px 5px;
+    color: brown;
+}b{
+    color: black;
+    font-size:20px;
+    padding: 0px 5px;
+}
+ul{
+    float: right;
+    margin-right: 10px;
+    }
+ ul li{
+        display: inline-block;
+        margin: 5px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+.head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0px;
+    padding: 5px 0px;
+    border-top: 1px solid #333;
+}
+/*flower list   */
+body{
+    background-color:lightgray;
+}
+.fulord{
+margin: 10px;
+padding: 10px;
+text-align: center;
+}
+
+.flowers img{
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+    transition: all .8s ease-in-out;
+}.flowers img:hover{
+    transform: scale(0.8);
+}
+h1{
+    color:black;
+    padding: 20px;
+    margin:10px 50px;
+    font-size:20px;
+
+}
+h2{
+    color:royalblue;
+    padding: 5px;
+    margin:auto;
+}
+p{
+    color:brown;
+    padding: 5px;
+    font-size: 30px;
+}
+h3,h3 a{
+    background: goldenrod;
+    color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin:10px;
+}
+.flowers{
+    padding:20px;
+ 
+}
+.col{
+    display: inline-flex;
+  
+}
+s{
+    text-decoration: line-through;
+    color:gray;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    padding: 20px;
+}
+span{
+    color:orangered;
+}
+.subbtn{
+    border: none;
+    background-color: transparent;
+}
+@media screen and (max-width: 700px){
+.listFlower{
+    width: 65%;
+    padding: 40px;
+    
+}
+}
+
+
+
